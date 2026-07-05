@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Rivera — Designer & Creative Developer</title>
+  <meta name="description" content="Portfolio of Alex Rivera — a designer and creative developer crafting digital experiences that feel as good as they look." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ░░ NAV ░░ -->
+  <header class="nav" id="nav" role="banner">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo" aria-label="Back to top">Alex Rivera</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav__links" id="navLinks" role="list">
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#work" class="nav__link">Work</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ░░ HERO ░░ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__mesh"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow" aria-hidden="true">✦ Available for work</p>
+        <h1 class="hero__name">
+          <span class="hero__name-line">Alex</span>
+          <span class="hero__name-line hero__name-line--accent">Rivera</span>
+        </h1>
+        <p class="hero__tagline">Designer.&nbsp; Animator.&nbsp; Creative Developer.</p>
+        <a href="#work" class="btn btn--primary hero__cta">See my work</a>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-label">scroll</span>
+      </div>
+    </section>
+
+    <!-- ░░ ABOUT ░░ -->
+    <section class="about section" id="about" aria-label="About me">
+      <div class="container about__inner">
+        <div class="about__image-wrap animate-on-scroll">
+          <img
+            src="https://placehold.co/480x560/1e293b/6366f1?text=Photo"
+            alt="Portrait of Alex Rivera"
+            class="about__image"
+            width="480"
+            height="560"
+          />
+          <div class="about__image-accent" aria-hidden="true"></div>
+        </div>
+        <div class="about__text animate-on-scroll">
+          <p class="section__eyebrow">About me</p>
+          <h2 class="section__title">I make things that <em>move</em> people.</h2>
+          <p class="about__bio">
+            I'm a multidisciplinary designer and creative developer based in [Your City]. I obsess over the details that turn a good design into a great experience — the micro-animation that makes a UI feel alive, the typographic choice that sets a brand's whole tone, the frame that makes a viewer stop scrolling.
+          </p>
+          <p class="about__bio">
+            Currently open to freelance projects and full-time collaborations. If you have an idea worth making beautifully, let's talk.
+          </p>
+          <a href="#contact" class="btn btn--outline">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ WORK ░░ -->
+    <section class="work section" id="work" aria-label="Selected projects">
+      <div class="container">
+        <p class="section__eyebrow">Selected work</p>
+        <h2 class="section__title">Projects</h2>
+        <div class="work__grid">
+
+          <article class="project-card project-card--featured animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/900x540/1e293b/6366f1?text=Brand+Identity" alt="Brand Identity System project" width="900" height="540" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">A full visual identity for a fintech startup — logo system, color, type, and motion guidelines.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Brand Identity System</h3>
+              <span class="project-card__tag">Branding</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/600x400/1e293b/818cf8?text=Motion+Reel" alt="Motion Design Reel project" width="600" height="400" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">Kinetic typography and brand motion for a streaming platform rebrand.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Motion Design Reel</h3>
+              <span class="project-card__tag">Motion</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/600x400/1e293b/f472b6?text=App+UI" alt="Mobile App UI project" width="600" height="400" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">End-to-end UI/UX for a wellness app — from user research through high-fidelity prototype.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Wellness App UI</h3>
+              <span class="project-card__tag">UI/UX</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/600x400/1e293b/6366f1?text=3D+Renders" alt="3D Visualization project" width="600" height="400" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">Product visualizations and scene compositions for an industrial design studio.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">3D Product Visualizations</h3>
+              <span class="project-card__tag">3D / Blender</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/600x400/1e293b/818cf8?text=Editorial" alt="Editorial Design project" width="600" height="400" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">Art direction and layout design for a quarterly culture magazine.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Editorial Art Direction</h3>
+              <span class="project-card__tag">Print</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0">
+            <div class="project-card__media">
+              <img src="https://placehold.co/600x400/1e293b/f472b6?text=Web+Design" alt="Web Design project" width="600" height="400" loading="lazy" />
+              <div class="project-card__overlay" aria-hidden="true">
+                <p class="project-card__desc">Interactive microsite for a music festival — built with Three.js and custom WebGL shaders.</p>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Festival Microsite</h3>
+              <span class="project-card__tag">Web / Creative Dev</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ SKILLS ░░ -->
+    <section class="skills section" id="skills" aria-label="Skills and tools">
+      <div class="container">
+        <p class="section__eyebrow">Tools &amp; technologies</p>
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__grid">
+          <div class="skills__category animate-on-scroll">
+            <h3 class="skills__cat-label">Design</h3>
+            <ul class="skills__list" role="list">
+              <li class="skill-badge">Figma</li>
+              <li class="skill-badge">Adobe Illustrator</li>
+              <li class="skill-badge">Photoshop</li>
+              <li class="skill-badge">InDesign</li>
+            </ul>
+          </div>
+          <div class="skills__category animate-on-scroll">
+            <h3 class="skills__cat-label">Motion</h3>
+            <ul class="skills__list" role="list">
+              <li class="skill-badge">After Effects</li>
+              <li class="skill-badge">Premiere Pro</li>
+              <li class="skill-badge">Cinema 4D</li>
+              <li class="skill-badge">Blender</li>
+            </ul>
+          </div>
+          <div class="skills__category animate-on-scroll">
+            <h3 class="skills__cat-label">Development</h3>
+            <ul class="skills__list" role="list">
+              <li class="skill-badge">HTML / CSS</li>
+              <li class="skill-badge">JavaScript</li>
+              <li class="skill-badge">React</li>
+              <li class="skill-badge">Three.js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ CONTACT ░░ -->
+    <section class="contact section" id="contact" aria-label="Contact">
+      <div class="container contact__inner">
+        <p class="section__eyebrow">Say hello</p>
+        <h2 class="contact__heading animate-on-scroll">Let's make something <em>worth&nbsp;noticing.</em></h2>
+        <p class="contact__sub animate-on-scroll">Open to freelance projects, full-time roles, and interesting conversations.</p>
+        <a href="mailto:hello@alexrivera.design" class="btn btn--primary contact__cta animate-on-scroll">
+          hello@alexrivera.design
+        </a>
+        <nav class="contact__socials animate-on-scroll" aria-label="Social links">
+          <a href="#" class="social-link" aria-label="Behance profile" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029H23.726zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zM3 11h3.584c2.508 0 2.906-3-.312-3H3v3zm3.391 3H3v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
+            <span>Behance</span>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn profile" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram profile" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            <span>Instagram</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Alex Rivera. Built with AI.</p>
+      <a href="#hero" class="footer__back" aria-label="Back to top">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
